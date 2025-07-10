@@ -3,13 +3,8 @@ configuration:
   has_webserver: false
   scoring:
     command: "mvn clean test"
-    files:
-      - "target/customReports/result.xml"
   ide_config:
-    default_open_files:
-      - src/main/java/com/hackerrank/sample/controller/ModelController.java
-      - src/main/java/com/hackerrank/sample/model/Model.java
     project_menu:
-      run: "mvn clean spring-boot:run"
+      run: "mvn spring-boot:run"
       install: "mvn clean install"
-      test: "mvn clean test; cat target/customReports/result.txt"
+      test: "mvn test"
