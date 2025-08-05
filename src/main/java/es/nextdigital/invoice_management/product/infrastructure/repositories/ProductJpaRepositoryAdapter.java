@@ -1,6 +1,6 @@
 package es.nextdigital.invoice_management.product.infrastructure.repositories;
 
-import es.nextdigital.invoice_management.product.domain.entities.ProductModel;
+import es.nextdigital.invoice_management.product.domain.models.ProductModel;
 import es.nextdigital.invoice_management.product.domain.repositories.ProductRepository;
 import es.nextdigital.invoice_management.product.infrastructure.entities.ProductEntity;
 import lombok.RequiredArgsConstructor;

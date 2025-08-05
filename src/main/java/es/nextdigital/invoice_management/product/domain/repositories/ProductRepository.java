@@ -1,6 +1,6 @@
 package es.nextdigital.invoice_management.product.domain.repositories;
 
-import es.nextdigital.invoice_management.product.domain.entities.ProductModel;
+import es.nextdigital.invoice_management.product.domain.models.ProductModel;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package es.nextdigital.invoice_management.product.domain.entities;
+package es.nextdigital.invoice_management.product.domain.models;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

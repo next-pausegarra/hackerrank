@@ -1,6 +1,6 @@
 package es.nextdigital.invoice_management.product.application.dto;
 
-import es.nextdigital.invoice_management.product.domain.entities.ProductModel;
+import es.nextdigital.invoice_management.product.domain.models.ProductModel;
 
 import java.math.BigDecimal;
 import java.util.UUID;

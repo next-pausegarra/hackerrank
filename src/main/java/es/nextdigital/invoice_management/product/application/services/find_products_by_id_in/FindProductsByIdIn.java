@@ -1,7 +1,7 @@
 package es.nextdigital.invoice_management.product.application.services.find_products_by_id_in;
 
 import es.nextdigital.invoice_management.product.application.dto.ProductDto;
-import es.nextdigital.invoice_management.product.domain.entities.ProductModel;
+import es.nextdigital.invoice_management.product.domain.models.ProductModel;
 import es.nextdigital.invoice_management.product.domain.repositories.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class FindProductsByIdInService {
+public class FindProductsByIdIn {
 
   private final ProductRepository productRepository;
 
