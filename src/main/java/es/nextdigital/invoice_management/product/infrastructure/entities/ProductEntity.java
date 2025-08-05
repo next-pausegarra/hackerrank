@@ -2,7 +2,6 @@ package es.nextdigital.invoice_management.product.infrastructure.entities;
 
 import es.nextdigital.invoice_management.product.domain.models.ProductModel;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
